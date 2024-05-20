@@ -14,6 +14,7 @@ This project is an interactive application for encrypting and decrypting text us
 
 - **Caesar Cipher**
 - **Base64 Encoding**
+- **Vigenère Cipher**
 
 ## Prerequisites
 
@@ -29,7 +30,7 @@ pip install ipywidgets
 
 ### Step 1: Define Encryption Classes
 
-The base class `Cipher` and subclasses for specific algorithms like `CaesarCipher` and `Base64Cipher` are defined. These classes include methods for encryption and decryption.
+The base class `Cipher` and subclasses for specific algorithms like `CaesarCipher`, `Base64Cipher`, and `VigenereCipher` are defined. These classes include methods for encryption and decryption.
 
 ### Step 2: Create the Interactive Interface
 
@@ -37,10 +38,12 @@ The `EncryptionApp` class sets up the user interface using `ipywidgets`. The int
 
 ### Step 3: Run the Application
 
-
-
 ### Running the Code
 
 1. **Set up your environment**: Make sure you have Python and `ipywidgets` installed.
 2. **Run the code**: Execute the code in a Jupyter Notebook.
 3. **Use the interface**: Enter text, select an algorithm, input a key, and click the buttons to encrypt, decrypt, and save results.
+
+## License
+
+This project is licensed under the MIT License.  
